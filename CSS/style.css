@@ -2,13 +2,11 @@
 *{
     margin:0;
     padding: 0;
-
 }
-
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+   background-color: black;
 }
 
 .container{
@@ -61,7 +59,6 @@ input[type="submit"]{
     color:white;
     background-color: #48C5CE;
     font-weight:bold;
-
 }
 
 select{
@@ -70,37 +67,37 @@ select{
     appearance: none;
     background-image: url('../Images/arrow.jpg');
     background-repeat: no-repeat;
-    background-position: calc(100% - -10px) center;
-
-*{
-    margin:0;
-    padding: 0;
+    background-position: calc(100% - 10px) center;
 }
 
+footer{
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-}
-
-.container{
-    max-width: 1000px;
-    margin:auto;
-}
-
-
-header{
-    background-color: #48C5CE;
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
-.title{  
-    font-size: 26px;
+background-color: #202121;
+padding:40px;
+text-align: center;
 
 }
 
-section{
-    color:white;
-}
+    .picture{
+        margin-top: 20px;
+        width: 160px;
+        
+    }
+    
+    .decription{
+        display: inline-block;
+        color: white;
+        max-width: 40%;
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    .decription p, .decription h3{
+     margin-bottom: 20px;
+    }
+
+    .description h3{
+        font-size: 24px;
+
+    }
+
